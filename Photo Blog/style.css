@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  font-family: "Dancing Script", cursive;
+  border-bottom: 2px solid rgb(98, 32, 146);
+  font-size: 40px;
+  margin-left: calc(10% / 6);
+  width: 30%;
+  padding: 20px 0;
+}
+
+img {
+  width: 30%;
+  margin: calc(10% / 6);
+}

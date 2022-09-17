@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Forms</title>
+  </head>
+  <body>
+    <h1>Employee Interest Survey form</h1>
+
+    <div class="form-survey">
+      <form action="/search">
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name" placeholder="John Doe" />
+
+        <br /><br />
+
+        <label for="department">Enter your department:</label>
+        <input
+          type="text"
+          name="department"
+          id="department"
+          placeholder="Your department"
+        />
+        <br /><br />
+
+        <label for="textArea">Tell us a little about yourself:</label>
+        <textarea
+          name="textArea"
+          id="textArea"
+          cols="30"
+          rows="5"
+          placeholder="Short bio..."
+        ></textarea>
+        <br /><br />
+
+        <label for="excercise">Do you excercise at home?</label>
+        Yes
+        <input type="radio" id="excercise" name="excercise" />
+        No
+        <input type="radio" id="excercise" name="excercise" />
+        <br /><br />
+
+        <label for="topcis"
+          >How do you like to read about your favorite topics?</label
+        >
+        <br /><br />
+        Books
+        <input type="checkbox" checked />
+        Online resources
+        <input type="checkbox" />
+        Phone apps
+        <input type="checkbox" />
+        Magazines
+        <input type="checkbox" />
+        <br /><br />
+        <label for="movie">What genre of movies do you like?</label>
+        <select name="movie" id="movie">
+          <option value="comedy">Comedy</option>
+          <option value="horor">Horror</option>
+          <option value="action">Action</option>
+        </select>
+        <br /><br />
+        <button class="btn">Submit Form</button>
+      </form>
+    </div>
+  </body>
+</html>
